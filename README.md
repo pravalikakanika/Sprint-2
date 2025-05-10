@@ -215,11 +215,14 @@ Critical vulnerabilities found in the scan report!
 
 # Best Practices
 
-- **Run scans on staging, not production**: Always run DAST scans on your staging environment rather than production to avoid affecting real users and systems.
-- **Use environment-specific configs for auth/API keys**: Ensure that authentication and API keys are environment-specific to avoid exposing sensitive data in scans.
-- **Scan behind login flows (authenticated DAST)**: Perform authenticated DAST scans to test vulnerabilities that can only be accessed after logging in, simulating real attacker behavior.
-- **Automate high-severity issue reporting (e.g., Jira integration)**: Automate the reporting of critical vulnerabilities to issue tracking systems like Jira, ensuring quick action and resolution.
-- **Combine with SAST and SCA tools for full security coverage**: Use DAST in conjunction with Static Application Security Testing (SAST) and Software Composition Analysis (SCA) tools to provide comprehensive security coverage across the development pipeline.
+| Best Practice                                                             | Description                                                                 |
+|---------------------------------------------------------------------------|-----------------------------------------------------------------------------|
+| **Run scans on staging, not production**                                  | Always run DAST scans on your staging environment rather than production to avoid affecting real users and systems. |
+| **Use environment-specific configs for auth/API keys**                    | Ensure that authentication and API keys are environment-specific to avoid exposing sensitive data in scans. |
+| **Scan behind login flows (authenticated DAST)**                          | Perform authenticated DAST scans to test vulnerabilities that can only be accessed after logging in, simulating real attacker behavior. |
+| **Automate high-severity issue reporting (e.g., Jira integration)**       | Automate the reporting of critical vulnerabilities to issue tracking systems like Jira, ensuring quick action and resolution. |
+| **Combine with SAST and SCA tools for full security coverage**            | Use DAST in conjunction with Static Application Security Testing (SAST) and Software Composition Analysis (SCA) tools to provide comprehensive security coverage across the development pipeline. |
+
 
 # Conclusion
 
