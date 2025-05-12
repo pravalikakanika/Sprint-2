@@ -76,7 +76,6 @@ It does not require access to source code and works on a deployed/staging instan
 ![image](https://github.com/user-attachments/assets/fab8623e-65b9-4f20-9587-c19984b0fddf)
 
 
-![image](https://github.com/user-attachments/assets/e5c078a1-0897-4346-b457-bd5f5227b586)
 
 1. Developer commits code to Git
 2. CI builds the React app
