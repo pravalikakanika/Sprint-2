@@ -1,3 +1,10 @@
+
+![image](https://github.com/user-attachments/assets/c957d3c5-cf39-4985-9152-224c8f62c1e5)
+
+
+# Introduction
+This document focuses on the integration of Dynamic Application Security Testing (DAST) into the GoLang Continuous Integration (CI) pipeline. DAST enables the detection of runtime vulnerabilities by simulating external attacks on a live application, making it an essential complement to traditional code analysis tools.
+
 # What is DAST?
 DAST tools perform black-box testing by interacting with a running application, typically through its user interface or APIs, to detect vulnerabilities that manifest during execution. These tools do not require access to the source code and can identify issues like SQL injection, Cross-Site Scripting (XSS), and security misconfigurations.
 
