@@ -1,6 +1,28 @@
 
 ![image](https://github.com/user-attachments/assets/c957d3c5-cf39-4985-9152-224c8f62c1e5)
 
+|**Author**        | **created on**       | **Version** |**Last edited on**| **Review Level**   | **Reviewer**      |
+|---------------|------------|---------|--------|--------|----------------------|
+| Pravalika Kanikarapu  | May 16   | v1.0|   May 16  | Pre-Reviewer   | Priyanshu            |
+| Pravalika Kanikarapu  |  |  |   | L0             | Priyanka     |
+| Pravalika Kanikarapu  |      |      |         | L1             | Rishabh Sharma       |
+| Pravalika Kanikarapu  |      |      |         | L2             | piyush Upadhyay      |
+
+
+# Table of Contents
+
+- [Introduction](#introduction)  
+- [What is DAST?](#what-is-dast)  
+- [Why Use DAST in GoLang CI?](#why-use-dast-in-golang-ci)  
+- [Workflow](#workflow)  
+- [Popular DAST Tools for GoLang](#popular-dast-tools-for-golang)  
+- [DAST vs. SAST Comparison](#dast-vs-sast-comparison)  
+- [Advantages of Integrating DAST in GoLang CI](#advantages-of-integrating-dast-in-golang-ci)  
+- [Best Practices for DAST Integration](#best-practices-for-dast-integration)  
+- [Conclusion](#conclusion)  
+- [Contact Information](#contact-information)  
+- [Reference](#reference)
+
 
 # Introduction
 This document focuses on the integration of Dynamic Application Security Testing (DAST) into the GoLang Continuous Integration (CI) pipeline. DAST enables the detection of runtime vulnerabilities by simulating external attacks on a live application, making it an essential complement to traditional code analysis tools.
