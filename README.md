@@ -109,9 +109,6 @@ Integrating DAST into a GoLang CI pipeline is essential for identifying and miti
 
 
 
-
-
-
 #  Contact Information
 
 
@@ -125,6 +122,5 @@ Integrating DAST into a GoLang CI pipeline is essential for identifying and miti
 
 | **Link**                                                                 | **Description**                                      |
 |--------------------------------------------------------------------------|------------------------------------------------------|
-| [What is an Ansible Role? - Red Hat](https://www.redhat.com/en/topics/automation/what-is-an-ansible-role) | Documentation followed for this link  |
-|[Use cases – Ansible Role](https://www.geeksforgeeks.org/ansible-roles/) | For Better Understanding followed for this link|
+| [GolangCI](https://github.com/golangci/golangci-lint?tab=readme-ov-file) | Documentation followed for this link  |
 
