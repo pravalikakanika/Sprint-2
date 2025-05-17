@@ -76,6 +76,100 @@ Implement strategies like HA setups and regular DR drills to reduce service inte
 
 # Workflow
 
+![image](https://github.com/user-attachments/assets/10a59081-fc0a-44c3-a72a-8c0816aa258d)
+
+## Jenkins Disaster Recovery (DR) Workflow
+
+### 1. Disaster Occurrence
+
+**What happens:**
+- A major issue like system failure, hardware crash, corruption, or data loss disrupts Jenkins.
+
+**Purpose:**
+- Recognizes the starting point of DR — an unplanned outage.
+
+---
+
+### 2. DR Trigger & Notification
+
+**What happens:**
+- Automated monitoring tools (e.g., Prometheus, ELK, custom scripts) detect the failure.
+- Alerts are sent via channels like email, Slack, PagerDuty, etc.
+
+**Purpose:**
+- Notifies the DevOps team to initiate the recovery process.
+
+---
+
+### 3. Backup Verification & Restore
+
+**What happens:**
+- Identify the latest backup of `JENKINS_HOME`, jobs, configs, and plugins.
+- Verify backup integrity to ensure it's not corrupted.
+- Begin restoration process.
+
+**Purpose:**
+- Ensures data can be safely recovered before moving forward.
+
+---
+
+### 4. Jenkins Environment Setup
+
+**What happens:**
+- Restore `JENKINS_HOME`.
+- Reinstall plugins, job configurations, and securely encrypted credentials.
+
+**Purpose:**
+- Rebuild the Jenkins base environment on a recovery server or container.
+
+---
+
+### 5. Automated Recovery Workflow
+
+**What happens:**
+- Run recovery scripts (Ansible, shell, Jenkinsfiles) to:
+  - Deploy Jenkins
+  - Set up containers (Docker/Kubernetes)
+  - Reconfigure settings
+
+**Purpose:**
+- Automates the process to reduce manual intervention and speed up restoration.
+
+---
+
+### 6. Post-Recovery Validation
+
+**What happens:**
+- Perform sanity checks.
+- Run a few Jenkins jobs to ensure functionality.
+
+**Purpose:**
+- Confirms that the recovery process was successful and Jenkins is operational.
+
+---
+
+### 7. Resume Jenkins Operations
+
+**What happens:**
+- Bring Jenkins back online.
+- Resume normal CI/CD operations.
+- Monitor for performance and stability.
+
+**Purpose:**
+- Returns Jenkins to full production status.
+
+---
+
+### 8. Review & DR Improvement
+
+**What happens:**
+- Conduct a root cause analysis.
+- Review and improve backup and recovery procedures.
+
+**Purpose:**
+- Strengthens the resilience of the DR strategy and improves future recovery efficiency.
+
+
 
 
 
