@@ -62,6 +62,11 @@ This table compares commonly used tools in Python development for code quality, 
 - **Scalability**  
   Maintains quality as team size and codebase grow.
 
+---
+
+For a comprehensive understanding of static code analysis and its application, please refer to the [POC]()
+
+---
   # Best Practices
 
 - Enforce formatting using **Black** with pre-commit hooks.
