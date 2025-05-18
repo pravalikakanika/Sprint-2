@@ -33,14 +33,17 @@ Static Code Analysis involves examining the code without executing it. It helps 
 
 # Tool Comparison
 
-| Feature              | Flake8 | Pylint | Mypy  | Bandit | Black | SonarQube |
-|----------------------|--------|--------|-------|--------|-------|-----------|
-| **Linting**          | ✅     | ✅     | ❌    | ❌     | ❌    | ✅        |
-| **Type Checking**    | ❌     | Partial| ✅    | ❌     | ❌    | ✅        |
-| **Code Formatting**  | ❌     | ❌     | ❌    | ❌     | ✅    | ❌        |
-| **Security Analysis**| ❌     | ❌     | ❌    | ✅     | ❌    | ✅        |
-| **Custom Rules Support** | ✅  | ✅     | ✅    | ✅     | ❌    | ✅        |
-| **Report Dashboard** | ❌     | ❌     | ❌    | ❌     | ❌    | ✅        |
+This table compares commonly used tools in Python development for code quality, security, type checking, and formatting.
+
+| **Feature**            | **Flake8** | **Pylint** | **Mypy** | **Bandit** | **Black** | **SonarQube** |
+|------------------------|------------|------------|----------|------------|-----------|----------------|
+| **Linting**            | Yes        | Yes        | No       | No         | No        | Yes            |
+| **Type Checking**      | No         | Partial    | Yes      | No         | No        | Yes            |
+| **Code Formatting**    | No         | No         | No       | No         | Yes       | No             |
+| **Security Analysis**  | No         | No         | No       | Yes        | No        | Yes            |
+| **Custom Rules Support**| Yes       | Yes        | Yes      | Yes        | No        | Yes            |
+| **Report Dashboard**   | No         | No         | No       | No         | No        | Yes            |
+
 
 # Advantages of Using CI & Static Analysis
 
