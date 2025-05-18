@@ -23,12 +23,12 @@ Static Code Analysis involves examining the code without executing it. It helps 
 
 | Tool       | Type               | Key Features                                      | Integrates with CI | Maintained |
 |------------|--------------------|---------------------------------------------------|---------------------|------------|
-| **Flake8** | Linter             | PEP8 enforcement, plugin support                 | ✅ Yes              | ✅ Yes     |
-| **Pylint** | Linter & Analyzer  | Code quality scores, bug detection               | ✅ Yes              | ✅ Yes     |
-| **Mypy**   | Type Checker       | Static type checking using Python type hints     | ✅ Yes              | ✅ Yes     |
-| **Bandit** | Security Scanner   | Finds common Python security issues              | ✅ Yes              | ✅ Yes     |
-| **Black**  | Formatter          | Opinionated code formatting                      | ✅ Yes              | ✅ Yes     |
-| **SonarQube** | Full Analyzer   | Deep static analysis with dashboard              | ✅ Yes              | ✅ Yes     |
+| **Flake8** | Linter             | PEP8 enforcement, plugin support                 | Yes              | Yes     |
+| **Pylint** | Linter & Analyzer  | Code quality scores, bug detection               |  Yes              |  Yes     |
+| **Mypy**   | Type Checker       | Static type checking using Python type hints     |  Yes              |  Yes     |
+| **Bandit** | Security Scanner   | Finds common Python security issues              |  Yes              |  Yes     |
+| **Black**  | Formatter          | Opinionated code formatting                      |  Yes              |  Yes     |
+| **SonarQube** | Full Analyzer   | Deep static analysis with dashboard              |  Yes              |  Yes     |
 
 
 # Tool Comparison
